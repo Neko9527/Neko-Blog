@@ -1,0 +1,21 @@
+{
+  "name": "vuepress-starter",
+  "version": "1.0.0",
+  "description": "this is a vuepress blog",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs --temp .temp",
+    "docs:build": "vuepress build docs",
+    "test": "npm run test"
+  },
+  "keywords": [
+    "vuepress",
+    "blog"
+  ],
+  "author": "xuechao.wang",
+  "license": "MIT",
+  "devDependencies": {
+    "@vuepress/plugin-blog": "^1.9.4",
+    "vuepress": "^1.8.2"
+  }
+}
