@@ -21,7 +21,7 @@ export default{
     console.log(this.$site.pages)
     var target = document.getElementsByClassName("footer")[0];
     if(target)
-      target.innerHTML = target.innerHTML.replace("SakuraNeko","<a href='https://sakuraneko.cn'>SakuraNeko</a>");
+      target.innerHTML = target.innerHTML.replace("SakuraNeko","<a href='https://github.com/Neko9527/Neko-Blog'>SakuraNeko</a>");
   }
 }
 </script>

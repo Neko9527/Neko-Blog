@@ -12,7 +12,7 @@ module.exports = {
         { text: 'Guide', link: '/guide/' },
         { text: 'Archives', link: '/archives/' },
         { text: 'About', link:'/about.html'},
-        { text: 'External', link: 'https://google.com' },
+        { text: 'GitHub', link: 'https://github.com/Neko9527/Neko-Blog' },
       ]
     }
 }
