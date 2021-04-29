@@ -1,3 +1,4 @@
+const path = require('path');
 module.exports = {
     title: 'SakuraNeko`s Blog',
     description: 'Just playing around',
@@ -14,5 +15,10 @@ module.exports = {
         { text: 'About', link:'/about.html'},
         { text: 'GitHub', link: 'https://github.com/Neko9527/Neko-Blog' },
       ]
+    },
+    chainWebpack: (config, isServer) => {
+      config.resolveLoader
+      .modules
+      .add(path.resolve(__dirname, './node_modules'))
     }
 }

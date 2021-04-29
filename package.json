@@ -16,6 +16,7 @@
   "license": "MIT",
   "devDependencies": {
     "@vuepress/plugin-blog": "^1.9.4",
-    "vuepress": "^1.8.2"
+    "vuepress": "^1.8.2",
+    "vuetify": "^2.4.11"
   }
 }
