@@ -1,17 +1,13 @@
-import Vuetify from 'vuetify/lib'
+import Vuetify from 'vuetify'
 import 'vuetify/dist/vuetify.min.css'
+import 'material-design-icons-iconfont/dist/material-design-icons.css'
 
 const opts = {
   theme: {
-    dark: true,
-    themes: {
-      light: {
-        primary: 'white',
-      },
-      dark: {
-        primary: 'black',
-      }
-    }
+    dark: false
+  },
+  icons: {
+    iconfont: 'md',
   }
 }
 export default ({
@@ -21,5 +17,6 @@ export default ({
     siteData // site metadata
   }) => {
     // ...apply enhancements to the app
-    Vue.use(Vuetify,opts)
+    Vue.use(Vuetify);
+    options.vuetify = new Vuetify(opts)
 }

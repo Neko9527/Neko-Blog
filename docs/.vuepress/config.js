@@ -5,7 +5,7 @@ module.exports = {
     head: [
       ['link', { rel: 'shortcut icon', type: "image/x-icon", href: `/img/Icon.png` }]
     ],
-    plugins: [ '@vuepress/blog'],
+    plugins: [ '@vuepress/blog',],
     themeConfig: {
       dateFormat: 'YYYY-MM-DD',
       nav: [
